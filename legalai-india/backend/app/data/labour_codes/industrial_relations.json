@@ -1,0 +1,36 @@
+{
+  "code": "Industrial Relations Code, 2020",
+  "notified": true,
+  "key_provisions": [
+    {
+      "section": "Section 57",
+      "topic": "Standing Orders",
+      "requirement": "Every industrial establishment with 300 or more workers must have certified Standing Orders covering classification, shifts, attendance, leave, termination, suspension, misconduct, grievance redressal.",
+      "policy_checklist": ["Establishments with 300+ workers must have certified Standing Orders", "Must cover all mandatory subjects", "HR policy must be consistent with Standing Orders"]
+    },
+    {
+      "section": "Section 70-71",
+      "topic": "Retrenchment",
+      "requirement": "Retrenchment compensation = 15 days average pay per completed year of service. 3 months notice or pay in lieu required. Last-in-first-out rule applies.",
+      "policy_checklist": ["Policy must specify retrenchment compensation: 15 days pay per year", "Must state 3 months notice for retrenchment", "Must define LIFO rule"]
+    },
+    {
+      "section": "Section 86",
+      "topic": "Grievance Redressal Committee",
+      "requirement": "Every establishment with 20 or more workers must have a Grievance Redressal Committee with equal employer-worker representation. Must resolve grievances within 30 days.",
+      "policy_checklist": ["Establishments with 20+ workers must have GRC", "Must have equal employer-worker representation", "Must specify 30-day resolution timeline"]
+    },
+    {
+      "section": "Section 62",
+      "topic": "Strike notice",
+      "requirement": "Workers must give 14 days notice before strike. No strike during conciliation or arbitration proceedings.",
+      "policy_checklist": ["Policy must inform workers of 14-day strike notice requirement", "Must contain grievance escalation procedure as alternative"]
+    },
+    {
+      "section": "Section 2(s)",
+      "topic": "Fixed term employment",
+      "requirement": "Fixed Term Employee entitled to same wages and benefits as permanent employee. Entitled to gratuity after 1 year (not 5 years).",
+      "policy_checklist": ["Fixed term policy must guarantee parity with permanent employees", "Must state gratuity eligibility from 1 year for fixed term employees"]
+    }
+  ]
+}

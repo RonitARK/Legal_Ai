@@ -1,0 +1,36 @@
+{
+  "code": "Occupational Safety, Health and Working Conditions Code, 2020",
+  "notified": true,
+  "key_provisions": [
+    {
+      "section": "Section 12",
+      "topic": "Working hours",
+      "requirement": "Maximum 8 hours/day and 48 hours/week. Maximum with overtime: 60 hours/week. Mandatory 30-minute rest after 5 hours continuous work. Spread-over must not exceed 10.5 hours.",
+      "policy_checklist": ["Must cap working hours at 8 hours/day and 48 hours/week", "Must mandate 30-minute break after 5 hours", "Must specify weekly rest day"]
+    },
+    {
+      "section": "Section 25",
+      "topic": "Annual leave",
+      "requirement": "1 day leave per 20 days worked (not 1 per 30). Qualifying threshold: 240 working days in previous year. Maximum accumulation: 30 days. Leave encashment mandatory on termination and retirement.",
+      "policy_checklist": ["Must specify leave accrual as 1 day per 20 days worked", "Must allow accumulation up to 30 days", "Must provide leave encashment on termination"]
+    },
+    {
+      "section": "Section 35",
+      "topic": "Health and safety duties",
+      "requirement": "Employer must provide safe workplace, safety training in language workers understand, adequate welfare facilities, and incident reporting procedure.",
+      "policy_checklist": ["Must contain safety commitment statement", "Must specify safety training frequency", "Must define welfare facilities", "Must specify incident reporting procedure"]
+    },
+    {
+      "section": "Section 43",
+      "topic": "Safety Committee",
+      "requirement": "Every establishment with 500+ workers must have a Safety Committee with equal employer-worker representation meeting quarterly.",
+      "policy_checklist": ["Establishments 500+ workers must have Safety Committee", "Must specify quarterly meeting frequency"]
+    },
+    {
+      "section": "Section 16",
+      "topic": "Night shift — women",
+      "requirement": "Women may work night shifts with their consent. Employer must provide safety measures and transport facility.",
+      "policy_checklist": ["Must specify consent requirement for women on night shift", "Must document safety measures for women on night shift", "Must specify transport provision"]
+    }
+  ]
+}

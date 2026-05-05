@@ -1,0 +1,177 @@
+{
+  "status": "success",
+  "filename": "test_hr_policy.pdf",
+  "analysis": {
+    "overall_score": 15,
+    "summary": "The HR policy of TestCorp India Pvt Ltd demonstrates significant non-compliance with the new Labour Codes, particularly regarding working hours, overtime, social security benefits, and termination procedures. Key areas such as EPF for probationers, maternity leave duration, and retrenchment compensation are critically deficient. Comprehensive updates are urgently required across most policy areas to meet statutory requirements.",
+    "gaps": [
+      {
+        "code": "Occupational Safety, Health and Working Conditions Code, 2020",
+        "section": "Section 12",
+        "issue": "Working hours exceed statutory limits of 8 hours/day and 48 hours/week. The policy specifies 9.5 hours/day, 6 days/week (57 hours/week).",
+        "severity": "critical",
+        "current_text": "Employees are expected to work 9.5 hours per day, 6 days a week.",
+        "compliant_text": "Employees are expected to work a maximum of 8 hours per day and 48 hours per week."
+      },
+      {
+        "code": "Code on Wages, 2019",
+        "section": "Section 43",
+        "issue": "The policy states no fixed overtime policy and that additional hours may be required without extra compensation, directly contradicting the requirement for overtime to be paid at twice the normal rate of wages.",
+        "severity": "critical",
+        "current_text": "There is no fixed overtime policy. Employees may be asked to work additional hours without extra compensation at management discretion.",
+        "compliant_text": "Overtime wages shall be paid at twice the normal rate of wages for every hour worked beyond 8 hours a day or 48 hours a week. A mandatory 30-minute rest break will be provided after 5 hours of continuous work."
+      },
+      {
+        "code": "Occupational Safety, Health and Working Conditions Code, 2020",
+        "section": "Section 12",
+        "issue": "The policy does not mention the mandatory 30-minute rest break after 5 hours of continuous work.",
+        "severity": "high",
+        "current_text": "Employees are expected to work 9.5 hours per day, 6 days a week.",
+        "compliant_text": "A mandatory 30-minute rest break will be provided after 5 hours of continuous work. The spread-over of working hours, including rest intervals, shall not exceed 10.5 hours in any day."
+      },
+      {
+        "code": "Code on Wages, 2019",
+        "section": "Section 6",
+        "issue": "The policy vaguely states adherence to minimum wage guidelines without referencing the current applicable minimum wage or specifying a review frequency.",
+        "severity": "medium",
+        "current_text": "The company follows applicable minimum wage guidelines.",
+        "compliant_text": "The company ensures all employees are paid wages not less than the applicable minimum wage as set by the appropriate government, which is reviewed periodically (e.g., annually)."
+      },
+      {
+        "code": "Code on Wages, 2019",
+        "section": "Section 9",
+        "issue": "There is no formal equal pay policy documented, which is a mandatory requirement to ensure no discrimination in remuneration based on gender for same or similar work.",
+        "severity": "high",
+        "current_text": "There is no formal equal pay policy documented.",
+        "compliant_text": "The company is committed to equal remuneration for employees of one gender as for employees of another gender for the same work or work of a similar nature. Any grievances regarding pay discrimination can be raised through the Grievance Redressal Committee."
+      },
+      {
+        "code": "Social Security Code, 2020",
+        "section": "Section 15",
+        "issue": "EPF is not applied from day one of employment; probationers and contract staff are excluded until confirmation, which violates the 'day 1 of employment' rule.",
+        "severity": "critical",
+        "current_text": "EPF is deducted at 12% of basic salary for all confirmed employees. Contract staff and employees on probation (first 6 months) are not enrolled in EPF until confirmation.",
+        "compliant_text": "EPF is applicable to all employees from the first day of their employment, including probationers and contract staff, provided the establishment meets the criteria. Employee contribution will be 12% of basic wages (including DA) and employer contribution will be 12% of basic wages (including DA), remitted by the 15th of the following month."
+      },
+      {
+        "code": "Social Security Code, 2020",
+        "section": "Section 53",
+        "issue": "The gratuity rate is specified as 10 days' wages per year of service, which is incorrect. The statutory requirement is 15 days' wages per year.",
+        "severity": "high",
+        "current_text": "The rate is 10 days wages per year of service.",
+        "compliant_text": "Gratuity will be calculated at the rate of 15 days' wages for every completed year of service or part thereof in excess of six months, subject to a maximum of \u20b920 lakhs."
+      },
+      {
+        "code": "Social Security Code, 2020",
+        "section": "Section 53",
+        "issue": "Gratuity is stated to be paid within 90 days of separation, whereas the statutory deadline is 30 days.",
+        "severity": "high",
+        "current_text": "Gratuity is paid within 90 days of separation.",
+        "compliant_text": "Gratuity will be paid within 30 days of the employee's separation."
+      },
+      {
+        "code": "Social Security Code, 2020",
+        "section": "Section 60",
+        "issue": "Maternity leave entitlement is 12 weeks, which is less than the statutory 26 weeks for the first two children.",
+        "severity": "critical",
+        "current_text": "Female employees are entitled to 12 weeks of paid maternity leave for first and second child.",
+        "compliant_text": "Female employees are entitled to 26 weeks of paid maternity leave for the first two children, and 12 weeks for the third or subsequent child."
+      },
+      {
+        "code": "Social Security Code, 2020",
+        "section": "Section 60",
+        "issue": "No creche facility is provided, which is mandatory for establishments employing 50 or more employees.",
+        "severity": "high",
+        "current_text": "No creche facility is currently provided.",
+        "compliant_text": "For establishments employing 50 or more employees, a creche facility will be provided. Employees will be informed of its availability and usage guidelines."
+      },
+      {
+        "code": "Social Security Code, 2020",
+        "section": "Section 60",
+        "issue": "Nursing breaks are not formally defined in the policy, but are a statutory requirement (2 per day until child is 15 months).",
+        "severity": "high",
+        "current_text": "Nursing breaks are not formally defined in this policy.",
+        "compliant_text": "Female employees are entitled to two nursing breaks during working hours until the child attains the age of fifteen months."
+      },
+      {
+        "code": "Industrial Relations Code, 2020",
+        "section": "Section 70-71",
+        "issue": "Retrenchment compensation is stated to be as per 'management decision' instead of the statutory formula (15 days average pay per completed year of service) and does not mention the mandatory 3 months notice or LIFO rule.",
+        "severity": "critical",
+        "current_text": "Retrenchment compensation will be as per management decision.",
+        "compliant_text": "In case of retrenchment, compensation shall be paid at the rate of 15 days' average pay for every completed year of service or any part thereof in excess of six months. A notice period of 3 months or wages in lieu thereof will be provided, and the principle of 'last in, first out' will apply."
+      },
+      {
+        "code": "Industrial Relations Code, 2020",
+        "section": "Section 86",
+        "issue": "No formal Grievance Redressal Committee (GRC) exists, which is mandatory for establishments with 20 or more workers.",
+        "severity": "critical",
+        "current_text": "No formal grievance redressal committee exists currently.",
+        "compliant_text": "A Grievance Redressal Committee (GRC) will be constituted with equal representation from the employer and workers to resolve industrial disputes within 30 days of their submission."
+      },
+      {
+        "code": "Occupational Safety, Health and Working Conditions Code, 2020",
+        "section": "Section 35",
+        "issue": "While there's a commitment to safety, the policy lacks specifics on safety training frequency, welfare facilities (beyond first aid), and an incident reporting procedure.",
+        "severity": "medium",
+        "current_text": "The company is committed to workplace safety. Employees must follow safety guidelines.",
+        "compliant_text": "The company is committed to providing a safe workplace, ensuring regular safety training in a language understood by workers, maintaining adequate welfare facilities (including drinking water, latrines, and washing facilities), and establishing a clear incident reporting procedure for occupational accidents and diseases."
+      },
+      {
+        "code": "Occupational Safety, Health and Working Conditions Code, 2020",
+        "section": "Section 43",
+        "issue": "No formal Safety Committee has been constituted, which is mandatory for establishments with 500 or more workers.",
+        "severity": "high",
+        "current_text": "No formal safety committee has been constituted.",
+        "compliant_text": "For establishments employing 500 or more workers, a Safety Committee with equal representation from the employer and workers will be constituted, holding meetings quarterly to address health and safety concerns."
+      },
+      {
+        "code": "Occupational Safety, Health and Working Conditions Code, 2020",
+        "section": "Section 25",
+        "issue": "Annual leave accrues at 1 day per 30 working days, which is less than the statutory requirement of 1 day per 20 days worked.",
+        "severity": "high",
+        "current_text": "Annual leave accrues at 1 day per 30 working days.",
+        "compliant_text": "Annual leave will accrue at the rate of one day for every twenty days of work performed. Employees must have completed 240 working days in the previous year to qualify for annual leave."
+      },
+      {
+        "code": "Occupational Safety, Health and Working Conditions Code, 2020",
+        "section": "Section 25",
+        "issue": "Leave encashment is not permitted on resignation, which is mandatory under the Code for termination of employment.",
+        "severity": "high",
+        "current_text": "Leave encashment is not permitted on resignation.",
+        "compliant_text": "Unutilised annual leave will be encashed upon termination of employment (including resignation or retirement) as per statutory provisions. Maximum accumulation for carry forward shall be 30 days."
+      },
+      {
+        "code": "Social Security Code, 2020",
+        "section": "Section 44",
+        "issue": "There is no mention of Employees' State Insurance (ESI) provisions, which are mandatory for establishments with 10 or more employees with a wage threshold of \u20b921,000/month.",
+        "severity": "critical",
+        "current_text": "Not mentioned in policy.",
+        "compliant_text": "The company contributes to ESI for eligible employees with wages up to \u20b921,000 per month. Employee contribution is 0.75% and employer contribution is 3.25% of the wages."
+      },
+      {
+        "code": "Industrial Relations Code, 2020",
+        "section": "Section 2(s)",
+        "issue": "The policy does not address fixed-term employment, specifically regarding parity of wages and benefits with permanent employees or gratuity eligibility after one year.",
+        "severity": "high",
+        "current_text": "Not mentioned in policy.",
+        "compliant_text": "Fixed-term employees shall be entitled to the same wages, allowances, and other benefits as a permanent employee doing work of a similar nature, including gratuity after one year of service."
+      },
+      {
+        "code": "Occupational Safety, Health and Working Conditions Code, 2020",
+        "section": "Section 16",
+        "issue": "The policy does not address the conditions for women working night shifts, including consent, safety measures, and transport facility.",
+        "severity": "high",
+        "current_text": "Not mentioned in policy.",
+        "compliant_text": "Women employees may be engaged in work during night shifts with their consent. The company shall ensure adequate safety measures, suitable working conditions, and provide transport facility from and to their residence."
+      }
+    ],
+    "compliant_areas": [
+      "Wage payment method (bank transfer)",
+      "EPF employee contribution rate (12%)",
+      "Gratuity eligibility period (5 years of service)",
+      "General commitment to workplace safety",
+      "Availability of first aid boxes"
+    ]
+  }
+}

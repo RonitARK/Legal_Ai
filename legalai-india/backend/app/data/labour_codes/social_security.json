@@ -1,0 +1,36 @@
+{
+  "code": "Social Security Code, 2020",
+  "notified": true,
+  "key_provisions": [
+    {
+      "section": "Section 15",
+      "topic": "EPF",
+      "requirement": "Applicable to establishments with 20+ employees. Employee contribution: 12% of basic wages. Employer contribution: 12%. EPF applies from day 1 of employment — probationers cannot be excluded.",
+      "policy_checklist": ["Policy must specify EPF from day 1 — no probation exclusion", "Must state employee contribution as 12% of basic+DA", "Must specify remittance by 15th of following month"]
+    },
+    {
+      "section": "Section 44",
+      "topic": "ESI",
+      "requirement": "Applicable to establishments with 10+ employees. Employee contribution: 0.75%. Employer contribution: 3.25%. Wage threshold: ₹21,000/month.",
+      "policy_checklist": ["Must state ESI wage threshold of ₹21,000/month", "Must specify employee 0.75% and employer 3.25% contributions"]
+    },
+    {
+      "section": "Section 53",
+      "topic": "Gratuity",
+      "requirement": "Payable after 5 years continuous service. Formula: 15 days wages per year of service (not 10 days). Maximum: ₹20 lakhs. Must be paid within 30 days (not 90 days).",
+      "policy_checklist": ["Must specify gratuity formula as 15 days per year", "Must state ₹20 lakh maximum", "Must specify 30-day payment deadline", "Must state payable on resignation too"]
+    },
+    {
+      "section": "Section 60",
+      "topic": "Maternity Benefit",
+      "requirement": "Paid maternity leave: 26 weeks for first two children (not 12 weeks). 12 weeks for third child. Nursing breaks: 2 per day until child is 15 months. Creche mandatory for 50+ employees.",
+      "policy_checklist": ["Must specify 26 weeks maternity leave for first two children", "Must provide 2 nursing breaks daily", "Establishments 50+ employees must specify creche provision", "Must prohibit dismissal during maternity leave"]
+    },
+    {
+      "section": "Section 109",
+      "topic": "Gig workers",
+      "requirement": "Platform companies must contribute 1-2% of annual turnover to social security fund for gig workers. Gig workers must be registered.",
+      "policy_checklist": ["Platform companies must document gig worker classification", "Must outline social security contributions for gig workers"]
+    }
+  ]
+}

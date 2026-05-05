@@ -1,0 +1,36 @@
+{
+  "code": "Code on Wages, 2019",
+  "notified": true,
+  "key_provisions": [
+    {
+      "section": "Section 6",
+      "topic": "Minimum wage",
+      "requirement": "Every employer must pay wages not less than the applicable minimum wage. Floor wage set by Central Government applies nationally.",
+      "policy_checklist": ["HR policy must reference current applicable minimum wage", "Must specify review frequency for wage revisions"]
+    },
+    {
+      "section": "Section 17",
+      "topic": "Wage payment timeline",
+      "requirement": "Wages must be paid: daily workers on daily basis, weekly workers on weekly basis, monthly workers by 7th of following month. Bank transfer mandatory for establishments with 10+ workers.",
+      "policy_checklist": ["Policy must specify wage payment date", "Must mandate bank transfer for eligible establishments", "Must not specify payment later than 7th of month"]
+    },
+    {
+      "section": "Section 9",
+      "topic": "Equal remuneration",
+      "requirement": "No employer shall pay less remuneration to employees of one gender than employees of another gender for same work or work of similar nature.",
+      "policy_checklist": ["HR policy must contain explicit equal pay clause", "Must define work of similar nature", "Must specify grievance mechanism for pay discrimination"]
+    },
+    {
+      "section": "Section 43",
+      "topic": "Overtime",
+      "requirement": "Overtime wages shall be at twice the normal rate of wages for every hour of overtime worked.",
+      "policy_checklist": ["Policy must specify overtime rate as 2x normal rate", "Must define overtime threshold hours"]
+    },
+    {
+      "section": "Section 14",
+      "topic": "Deductions",
+      "requirement": "Deductions from wages permitted only as specified: fines, absence, damage, advances, accommodation, amenities. Total deductions must not exceed 50% of wages.",
+      "policy_checklist": ["Policy must list permissible deductions only", "Must specify 50% cap on total deductions", "Fine amounts must be pre-notified"]
+    }
+  ]
+}
