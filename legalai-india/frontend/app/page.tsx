@@ -2,7 +2,7 @@
 import { useState, useCallback } from "react";
 import { useDropzone } from "react-dropzone";
 import axios from "axios";
-import { FileText, Upload, AlertCircle, CheckCircle, AlertTriangle, Info, Loader2 } from "lucide-react";
+import { FileText, Upload, AlertCircle, CheckCircle, AlertTriangle, Info, Loader2, Download } from "lucide-react"; // ← ADD: Download
 
 const SEVERITY_CONFIG = {
   critical: { color: "bg-red-50 border-red-200", badge: "bg-red-100 text-red-700", icon: <AlertCircle className="w-4 h-4 text-red-500" /> },
@@ -33,6 +33,7 @@ export default function Home() {
   const [analysis, setAnalysis] = useState<Analysis | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [expandedGap, setExpandedGap] = useState<number | null>(null);
+  const [isDownloading, setIsDownloading] = useState(false); // ← ADD 1
 
   const onDrop = useCallback((accepted: File[]) => {
     setFile(accepted[0]);
@@ -61,6 +62,37 @@ export default function Home() {
       setLoading(false);
     }
   };
+
+  // ── ADD 2: Download handler ───────────────────────────────────────────────
+  const handleDownloadReport = async () => {
+    if (!analysis) return;
+    setIsDownloading(true);
+    try {
+      const response = await fetch(
+        "https://solid-space-trout-g4q4j6wvq796cv7jv-8000.app.github.dev/api/v1/audit/report-from-result",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(analysis),
+        }
+      );
+      if (!response.ok) throw new Error("Failed to generate report");
+      const blob = await response.blob();
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = `legalai-compliance-report-${Date.now()}.pdf`;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(url);
+    } catch (err) {
+      alert("Could not generate report. Please try again.");
+    } finally {
+      setIsDownloading(false);
+    }
+  };
+  // ─────────────────────────────────────────────────────────────────────────
 
   const scoreColor = (score: number) =>
     score >= 75 ? "text-green-600" : score >= 50 ? "text-yellow-600" : "text-red-600";
@@ -160,7 +192,7 @@ export default function Home() {
                 />
               </div>
 
-              <div className="grid grid-cols-3 gap-3">
+              <div className="grid grid-cols-3 gap-3 mb-4">
                 <div className="bg-red-50 rounded-lg p-3 text-center">
                   <div className="text-2xl font-bold text-red-600">{criticalCount}</div>
                   <div className="text-xs text-red-600 mt-0.5">Critical</div>
@@ -174,6 +206,20 @@ export default function Home() {
                   <div className="text-xs text-green-600 mt-0.5">Compliant</div>
                 </div>
               </div>
+
+              {/* ── ADD 3: Download button ── */}
+              <button
+                onClick={handleDownloadReport}
+                disabled={isDownloading}
+                className="w-full flex items-center justify-center gap-2 bg-gray-900 hover:bg-gray-700 disabled:bg-gray-400 text-white text-sm font-medium py-2.5 px-4 rounded-lg transition-colors"
+              >
+                {isDownloading ? (
+                  <><Loader2 className="w-4 h-4 animate-spin" /> Generating PDF…</>
+                ) : (
+                  <><Download className="w-4 h-4" /> Download PDF Report</>
+                )}
+              </button>
+              {/* ───────────────────────────── */}
             </div>
 
             {/* Gaps */}
